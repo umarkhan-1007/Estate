@@ -1,0 +1,34 @@
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-right>p{
+font-size: 0.9rem;
+letter-spacing: 1px;
+margin-top: 0.4rem;
+}
+.f-left>p{
+    margin: 0.5rem 0;
+}
+.f-left .social-icons {
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.social-icons:hover{
+    cursor: pointer;
+}
+@media (max-width:640px) {
+    .f-container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .f-right{
+        width: 100%;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}

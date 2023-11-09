@@ -1,0 +1,44 @@
+.gs-container{
+    background: var(--blue-gradient);
+    height: 100%;
+    height: 15rem;
+    padding: 2rem 0;
+    margin-bottom:3rem;
+    border-radius: 5px;     
+    width:80%;  
+
+}
+.gs-container>h1{
+font-size: 2rem;
+color: white;
+margin-bottom: 0.5rem;
+
+}
+.gs-container>p{
+    color: white;
+    padding: 1.5rem;
+    /* width: 60%; */
+    text-transform: capitalize;
+    text-align: center;
+}
+.gs-container>button{
+ padding: 0.5rem 1.5rem;
+ background-color: transparent;
+ color: white;
+ border: 1px solid white;
+ border-radius: 7px;
+word-spacing: 1px;
+transition: all 300ms ease;
+}
+.gs-container>button:hover{
+    scale: 1.1;
+border: 1px solid black;
+cursor: pointer;
+}
+
+@media (max-width:640px) {
+    .gs-container{
+        width: 100%;
+        
+    }
+}
